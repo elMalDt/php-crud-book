@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f4f4f4;
+}
+
+.container-login{
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 470px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  padding: 50px;
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 6px 17px -4px rgba(173,173,173,1);
+  -moz-box-shadow: 6px 6px 17px -4px rgba(173,173,173,1);
+  box-shadow: 6px 6px 17px -4px rgba(173,173,173,1);
+}
+.container-login input, .container-login textarea{
+  border-radius: 5px;
+  border: 1px solid #00BCD4;
+  margin: 7px 0px;
+  width: 97%;
+  height: 50px;
+  padding: 20px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+.container-login textarea{
+  padding: 10px 20px;
+  min-height: 100px;
+  max-height: 150px;
+  min-width: 97%;
+  max-width: 97%;
+}
+.btn-send{
+  background-color: #00BCD4;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: none;
+  width: 97%;
+  font-size: 18px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.login-title{
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size:30px;
+    color: #333333;
+    text-align: center;
+    margin-top: 20px;
+}
+.added{
+  width: 470px;
+  background-color: green;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding: 5px 20px;
+  height: 50px;
+}
+.content-table{
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  font-size: 1.1em;
+  min-width: 400px;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  -webkit-box-shadow: 6px 6px 17px -4px rgba(173,173,173,1);
+  -moz-box-shadow: 6px 6px 17px -4px rgba(173,173,173,1);
+  box-shadow: 6px 6px 17px -4px rgba(173,173,173,1);
+  margin-bottom: 50px;
+}
+.content-table thead tr{
+  background-color: #00BCD4;
+  color: #fff;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.content-table th,
+.content-table td{
+  padding: 12px 15px;
+  font-family: 'Roboto', sans-serif;
+}
+.content-table tbody tr{
+  border-bottom: 1px solid #dddddd;
+}
