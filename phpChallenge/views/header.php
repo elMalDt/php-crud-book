@@ -9,10 +9,10 @@
   </head>
   <body>
     <header class="logos">
-      <a href="#">
+      <a href="https://www.unam.mx/" target="_blank">
         <img src="img/Logo-UNAM.png" alt="UNAM Oficial">
       </a>
-      <a href="#">
+      <a href="https://www.acatlan.unam.mx/" target="_blank">
         <img src="img/logo_fesa.png" alt="FES Acatlán">
       </a>
     </header>
